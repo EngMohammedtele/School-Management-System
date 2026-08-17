@@ -13,11 +13,8 @@ public class Person implements Displayable {
     private String email;
     private String address;
 
-    public Person(String id, String firstName, String lastName,
-                  String dateOfBirth, String gender,
-                  String phoneNumber, String email, String address) {
-
-        setId(id);
+    public Person(String id, String firstName, String lastName, String dateOfBirth, String gender, String phoneNumber, String email, String address) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
@@ -25,6 +22,10 @@ public class Person implements Displayable {
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;
+    }
+
+    public String getEmail() {
+        return email;
     }
 
     public String getId() {
@@ -51,19 +52,11 @@ public class Person implements Displayable {
         return phoneNumber;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
     public String getAddress() {
         return address;
     }
 
     public void setId(String id) {
-        if (utils.HelperUtils.isEmpty(id)) {
-            System.out.println("Id cannot be empty. Keeping the old id.");
-            return;
-        }
         this.id = id;
     }
 
@@ -97,21 +90,29 @@ public class Person implements Displayable {
 
     @Override
     public void displayInfo() {
+
         System.out.println(
-                "Person: " + firstName + " " + lastName +
-                        " (id: " + id + ")"
+                "Person: "
+                        + firstName
+                        + " "
+                        + lastName
+                        + " (id: "
+                        + id
+                        + ")"
         );
     }
 
+
     @Override
     public String displaySummary() {
-        return id + " - " + firstName + " " + lastName;
+        return "";
     }
 
     @Override
     public String toString() {
-        return "Person{id=" + id +
-                ", name=" + firstName + " " + lastName + "}";
+        return "Person{" +
+                "id='" + id + '\'' +
+                '}';
     }
 
     @Override
@@ -131,3 +132,4 @@ public class Person implements Displayable {
         return this.id.equals(p.id);
     }
 }
+

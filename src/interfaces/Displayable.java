@@ -1,4 +1,5 @@
 package interfaces;
 
-public class Displayable {
+public abstract class Displayable {
+    public abstract String displaySummary();
 }
