@@ -69,4 +69,7 @@ public Student searchById(String id) {
 @Override
 public List<Student> search(String keyword) {
     for (Student student : students) {
+        if (student.getFirstName().contains(keyword)
+                || student.getLastName().contains(keyword)) {
+    }
 }
