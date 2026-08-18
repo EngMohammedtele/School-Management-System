@@ -25,4 +25,5 @@ public class HelperUtils {
                 && s.trim().length() >= min
                 && s.trim().length() <= max;
     }
+    public static String generateId() {
 }
