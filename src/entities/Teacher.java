@@ -45,3 +45,6 @@ public class Teacher extends Person {
         this.salary = salary;
     }
 
+    public void setExperienceYears(int experienceYears) {
+
+    }
