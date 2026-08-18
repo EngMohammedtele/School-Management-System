@@ -2,6 +2,7 @@ package utils;
 
 public class InputHandler {
 import java.util.Scanner;
+
     public class InputHandler {
         private Scanner scanner = new Scanner(System.in);
 
@@ -9,12 +10,13 @@ import java.util.Scanner;
             IO.println(prompt + " ");
             return scanner.nextLine();
         }
+
         public int getIntInput(String prompt) {
 
-          IO.println(prompt + " ");
+            IO.println(prompt + " ");
 
             while (!scanner.hasNextInt()) {
-               IO.println(
+                IO.println(
                         "Please type a whole number: "
                 );
                 scanner.next();
@@ -23,6 +25,7 @@ import java.util.Scanner;
             scanner.nextLine();
             return value;
         }
+
         public int getIntInput(
                 String prompt,
                 int min,
@@ -39,12 +42,13 @@ import java.util.Scanner;
                 );
             }
         }
+
         public double getDoubleInput(String prompt) {
-          IO.println(prompt + " ");
+            IO.println(prompt + " ");
 
             while (!scanner.hasNextDouble()) {
 
-              IO.println(
+                IO.println(
                         "Please type a number: "
                 );
                 scanner.next();
@@ -53,6 +57,7 @@ import java.util.Scanner;
             scanner.nextLine();
             return value;
         }
+
         public boolean getConfirmation(String prompt) {
 
             IO.println(
@@ -66,7 +71,6 @@ import java.util.Scanner;
                     || answer.equals("y");
         }
     }
-        }
-        }
 }
+
 
