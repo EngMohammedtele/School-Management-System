@@ -73,5 +73,8 @@ public class Teacher extends Person {
 
             setSalary(salary);
 
-
+            IO.println(
+                    "Salary updated. Reason: " + reason
+            );
+        }
     }
