@@ -56,3 +56,9 @@ public class Student extends Person {
     }
     public void addSubject(String subject) {
         subjects.add(subject);
+    }
+
+    /
+    public void updateContact(String phone) {
+        setPhoneNumber(phone);
+    }
