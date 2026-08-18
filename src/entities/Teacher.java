@@ -40,3 +40,8 @@ public class Teacher extends Person {
     public void setSubject(String subject) {
         this.subject = subject;
     }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
