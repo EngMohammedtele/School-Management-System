@@ -10,3 +10,7 @@ public interface Manageable<T> {
 
 
     boolean remove(String id);
+
+
+    List<T> getAll();
+}
