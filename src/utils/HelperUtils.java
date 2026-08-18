@@ -45,5 +45,8 @@ public class HelperUtils {
         return n >= min && n <= max;
     }
     public static boolean isValidNumber(
+            double n,
+            double min,
+            double max) {
     }
 }
