@@ -34,5 +34,10 @@ public class HeadTeacher extends  Person{
         teachersManaged = teachersManaged + 1;
 
 }
+    @Override
+
+        );
+    }
+}
 
     }
