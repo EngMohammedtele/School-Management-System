@@ -12,6 +12,10 @@ public class HelperUtils {
     }
     public static boolean isValidString(String s) {
         return !isEmpty(s);
+    }
+    public static boolean isValidString(String s, int minLength) {
+
+    }
 
 
 
