@@ -19,6 +19,7 @@ import java.util.Scanner;
                 );
                 scanner.next();
             }
+            int value = scanner.nextInt();
 
         }
 }
