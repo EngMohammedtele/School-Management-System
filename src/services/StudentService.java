@@ -31,5 +31,6 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
                 "2026-01-01",
                 0
         );
+        students.add(student);
     }
 }
