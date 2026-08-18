@@ -22,4 +22,10 @@ public class Teacher extends Person {
 
         this.classesTaught = new ArrayList<>();
     }
+    public String getSubject() {
+        return subject;
+    }
+
+
+    }
 }
