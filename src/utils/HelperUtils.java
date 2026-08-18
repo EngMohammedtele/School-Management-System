@@ -36,4 +36,6 @@ public class HelperUtils {
         return n > 0;
     }
     public static boolean isPositive(double n) {
+        return n > 0;
+    }
 }
