@@ -46,5 +46,6 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
         Student found = searchById(id);
         if (found != null) {
             students.remove(found);
+            return true;
         }
     }
