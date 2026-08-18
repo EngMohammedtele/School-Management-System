@@ -80,5 +80,14 @@ public class Teacher extends Person {
         @Override
         public void displayInfo() {
 
-
+            IO.println(
+                    "Teacher: " +
+                            getFirstName() + " " +
+                            getLastName() +
+                            " | subject: " + subject +
+                            " | experience: " +
+                            experienceYears + " years"
+            );
+        }
+    }
     }
