@@ -53,6 +53,7 @@ import java.util.Scanner;
             scanner.nextLine();
             return value;
         }
+        public boolean getConfirmation(String prompt) {
             }
         }
 }
