@@ -14,7 +14,8 @@ public class Student extends Person {
                    double feeBalance) {
         super(id, firstName, lastName, dateOfBirth,
                 gender, phoneNumber, email, address);
-
+        this.gradeLevel = gradeLevel;
+        this.enrollmentDate = enrollmentDate;
 
 
 
