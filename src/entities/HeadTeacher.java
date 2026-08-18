@@ -30,6 +30,8 @@ public class HeadTeacher extends  Person{
     public void setDepartment(String department) {
         this.department = department;
     }
+    public void addManagedTeacher() {
+        teachersManaged = teachersManaged + 1;
 
 }
 
