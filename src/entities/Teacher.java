@@ -63,6 +63,6 @@ public class Teacher extends Person {
             this.experienceYears = experienceYears;
         }
         public void addClass(String className) {
-
+            classesTaught.add(className);
         }
     }
