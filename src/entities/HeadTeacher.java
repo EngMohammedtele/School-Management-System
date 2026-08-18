@@ -37,7 +37,14 @@ public class HeadTeacher extends  Person{
     @Override
     public void displayInfo() {
 
-
+        IO.println(
+                "Head Teacher: " +
+                        getFirstName() + " " +
+                        getLastName() +
+                        " | department: " + department +
+                        " | manages: " +
+                        teachersManaged + " teachers"
+        );
     }
 }
 
