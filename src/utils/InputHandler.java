@@ -27,5 +27,9 @@ import java.util.Scanner;
                 String prompt,
                 int min,
                 int max) {
+            while (true) {
+
+            }
+        }
 }
 
