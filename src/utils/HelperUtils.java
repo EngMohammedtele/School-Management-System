@@ -26,4 +26,6 @@ public class HelperUtils {
                 && s.trim().length() <= max;
     }
     public static String generateId() {
+        return "ID-" + (counter++);
+    }
 }
