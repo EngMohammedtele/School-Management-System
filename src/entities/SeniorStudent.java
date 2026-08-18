@@ -31,7 +31,16 @@ public void setGpa(double gpa) {
     this.gpa = gpa;
 }
 @Override
+public void displayInfo() {
 
+    IO.println(
+            "Senior Student: " +
+                    getFirstName() + " " +
+                    getLastName() +
+                    " | major: " + major +
+                    " | GPA: " + gpa
+    );
+}
 }
 
 }
