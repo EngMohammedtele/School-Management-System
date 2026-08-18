@@ -36,5 +36,7 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
     }
     public Student addStudent(Student student) {
         students.add(student);
+        return student;
+    }
     }
 }
