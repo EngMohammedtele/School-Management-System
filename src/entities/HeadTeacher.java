@@ -27,6 +27,10 @@ public class HeadTeacher extends  Person{
     public int getTeachersManaged() {
         return teachersManaged;
     }
+    public void setDepartment(String department) {
+        this.department = department;
     }
+
+}
 
     }
