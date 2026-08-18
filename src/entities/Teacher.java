@@ -59,3 +59,8 @@ public class Teacher extends Person {
                 this.experienceYears = 0;
                 return;
             }
+
+            this.experienceYears = experienceYears;
+        }
+        }
+    }
