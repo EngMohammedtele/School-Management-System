@@ -77,4 +77,8 @@ public class Teacher extends Person {
                     "Salary updated. Reason: " + reason
             );
         }
+        @Override
+        public void displayInfo() {
+
+
     }
