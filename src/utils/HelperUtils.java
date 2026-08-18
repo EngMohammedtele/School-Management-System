@@ -22,6 +22,5 @@ public class HelperUtils {
             int min,
             int max) {
         return !isEmpty(s
-
-
+                && s.trim().length() >= min
 }
