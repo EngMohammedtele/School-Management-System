@@ -12,4 +12,9 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
             String firstName,
             String lastName,
             String phone) {
+
+
+
+        String id = HelperUtils.generateId("STU");
+    }
 }
