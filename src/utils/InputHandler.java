@@ -51,6 +51,7 @@ import java.util.Scanner;
             }
             double value = scanner.nextDouble();
             scanner.nextLine();
+            return value;
         }
             }
         }
