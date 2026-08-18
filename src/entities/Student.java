@@ -38,3 +38,8 @@ public class Student extends Person {
     public void setGradeLevel(String gradeLevel) {
         this.gradeLevel = gradeLevel;
     }
+
+    public void setEnrollmentDate(String enrollmentDate) {
+        this.enrollmentDate = enrollmentDate;
+    }
+
