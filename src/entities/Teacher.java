@@ -50,5 +50,5 @@ public class Teacher extends Person {
 
 
         if (experienceYears < 0) {
+            if (experienceYears < 0) {
 
-    }
