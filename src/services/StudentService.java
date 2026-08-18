@@ -8,5 +8,8 @@ import java.util.List;
 
 public class StudentService implements Manageable<Student>, Searchable<Student> {
     private List<Student> students = new ArrayList<>();
-
+    public Student addStudent(
+            String firstName,
+            String lastName,
+            String phone) {
 }
