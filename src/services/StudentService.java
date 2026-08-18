@@ -7,3 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentService implements Manageable<Student>, Searchable<Student> {
+    private List<Student> students = new ArrayList<>();
+
+}
