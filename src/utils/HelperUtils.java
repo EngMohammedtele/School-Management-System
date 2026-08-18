@@ -38,4 +38,8 @@ public class HelperUtils {
     public static boolean isPositive(double n) {
         return n > 0;
     }
+    public static boolean isValidNumber(
+            int n,
+            int min,
+            int max) {
 }
