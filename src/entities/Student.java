@@ -53,3 +53,6 @@ public class Student extends Person {
             return;
         }
         this.feeBalance = feeBalance;
+    }
+    public void addSubject(String subject) {
+        subjects.add(subject);
