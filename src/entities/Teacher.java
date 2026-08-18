@@ -52,3 +52,5 @@ public class Teacher extends Person {
         if (experienceYears < 0) {
             if (experienceYears < 0) {
 
+                IO.println(
+                        "Experience cannot be below 0. Keeping it at 0."
