@@ -43,3 +43,6 @@ public class Student extends Person {
         this.enrollmentDate = enrollmentDate;
     }
 
+    public void setFeeBalance(double feeBalance) {
+
+        if (feeBalance < 0) {
