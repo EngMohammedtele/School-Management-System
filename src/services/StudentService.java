@@ -58,3 +58,6 @@ public List<Student> getAll() {
     }
 @Override
 public Student searchById(String id) {
+
+    if (student.getId().equals(id)) {
+}
