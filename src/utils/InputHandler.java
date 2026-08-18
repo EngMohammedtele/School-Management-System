@@ -30,7 +30,7 @@ import java.util.Scanner;
             while (true) {
                 int value = getIntInput(prompt);
 
-
+                if (HelperUtils.isValidNumber(value, min, max)) {
             }
         }
 }
