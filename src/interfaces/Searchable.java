@@ -5,3 +5,6 @@ public interface Searchable<T> {
 
 
     List<T> search(String keyword);
+
+    T searchById(String id);
+}
