@@ -54,5 +54,5 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
 }
 @Override
 public List<Student> getAll() {
-
+    return students;
     }
