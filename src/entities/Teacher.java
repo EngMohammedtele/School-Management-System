@@ -29,3 +29,8 @@ public class Teacher extends Person {
     public int getExperienceYears() {
         return experienceYears;
     }
+
+    public double getSalary() {
+        return salary;
+    }
+
