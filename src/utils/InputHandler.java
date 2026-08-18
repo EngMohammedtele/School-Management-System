@@ -6,6 +6,7 @@ import java.util.Scanner;
         private Scanner scanner = new Scanner(System.in);
 
         public String getStringInput(String prompt) {
+            IO.println(prompt + " ");
 
 
 
