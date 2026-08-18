@@ -12,4 +12,12 @@ public class HeadTeacher extends  Person{
                        double salary, String department,
                        int teachersManaged) {
 
+
+        super(id, firstName, lastName, dateOfBirth,
+                gender, phoneNumber, email, address,
+                subject, experienceYears, salary);
+
+
+    }
+
     }
