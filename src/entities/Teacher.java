@@ -26,6 +26,6 @@ public class Teacher extends Person {
         return subject;
     }
 
-
+    public int getExperienceYears() {
+        return experienceYears;
     }
-}
