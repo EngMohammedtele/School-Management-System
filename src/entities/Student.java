@@ -46,3 +46,5 @@ public class Student extends Person {
     public void setFeeBalance(double feeBalance) {
 
         if (feeBalance < 0) {
+            System.out.println(
+        }
