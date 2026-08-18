@@ -32,3 +32,6 @@ public class Student extends Person {
     public double getFeeBalance() {
         return feeBalance;
     }
+    public List<String> getSubjects() {
+        return subjects;
+    }
