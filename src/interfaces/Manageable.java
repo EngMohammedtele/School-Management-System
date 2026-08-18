@@ -1,4 +1,4 @@
 package interfaces;
 
-public class Manageable {
-}
+import java.util.List;
+

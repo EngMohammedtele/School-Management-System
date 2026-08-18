@@ -1,7 +1,4 @@
 package entities;
-
-package entities;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,17 +8,20 @@ public class Teacher extends Person {
     private int experienceYears;
     private double salary;
     private List<String> classesTaught;
+
     public Teacher(String id, String firstName, String lastName,
                    String dateOfBirth, String gender,
                    String phoneNumber, String email, String address,
                    String subject, int experienceYears,
                    double salary) {
         super(id, firstName, lastName, dateOfBirth,
-                gender, phoneNumber, email, address)
-        this.salary = salary;
+                gender, phoneNumber, email, address);
 
+
+        this.salary = salary;
         this.classesTaught = new ArrayList<>();
     }
+
     public String getSubject() {
         return subject;
     }
@@ -37,6 +37,7 @@ public class Teacher extends Person {
     public List<String> getClassesTaught() {
         return classesTaught;
     }
+
     public void setSubject(String subject) {
         this.subject = subject;
     }
@@ -46,7 +47,6 @@ public class Teacher extends Person {
     }
 
     public void setExperienceYears(int experienceYears) {
-
 
 
         if (experienceYears < 0) {
@@ -62,14 +62,15 @@ public class Teacher extends Person {
 
             this.experienceYears = experienceYears;
         }
-        public void addClass(String className) {
+            public void addClass(String className){
             classesTaught.add(className);
 
         }
-        public void updateSalary(double salary) {
+
+        public void updateSalary(double salary){
             setSalary(salary);
         }
-        public void updateSalary(double salary, String reason) {
+        public void updateSalary ( double salary, String reason){
 
             setSalary(salary);
 
@@ -78,7 +79,7 @@ public class Teacher extends Person {
             );
         }
         @Override
-        public void displayInfo() {
+        public void displayInfo () {
 
             IO.println(
                     "Teacher: " +
@@ -89,5 +90,4 @@ public class Teacher extends Person {
                             experienceYears + " years"
             );
         }
-    }
     }

@@ -47,5 +47,3 @@ public class HeadTeacher extends  Person{
         );
     }
 }
-
-    }
