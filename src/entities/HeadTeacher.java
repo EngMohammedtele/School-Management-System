@@ -17,7 +17,9 @@ public class HeadTeacher extends  Person{
                 gender, phoneNumber, email, address,
                 subject, experienceYears, salary);
 
+        this.department = department;
 
+    }
     }
 
     }
