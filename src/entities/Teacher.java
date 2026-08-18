@@ -1,4 +1,9 @@
 package entities;
 
-public class Teacher {
-}
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Teacher extends Person {
