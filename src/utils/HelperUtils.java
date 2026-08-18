@@ -11,7 +11,7 @@ public class HelperUtils {
         return list == null || list.isEmpty();
     }
     public static boolean isValidString(String s) {
-
+        return !isEmpty(s);
 
 
 
