@@ -32,5 +32,6 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
                 0
         );
         students.add(student);
+        return student;
     }
 }
