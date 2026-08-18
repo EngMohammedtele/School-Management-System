@@ -52,3 +52,4 @@ public class Student extends Person {
             this.feeBalance = 0;
             return;
         }
+        this.feeBalance = feeBalance;
