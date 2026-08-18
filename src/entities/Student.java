@@ -69,3 +69,10 @@ public class Student extends Person {
     }
     @Override
     public void displayInfo() {
+        IO.println( "Student: " +
+                getFirstName() + " " +
+                getLastName() +
+                " | grade: " + gradeLevel +
+                " | fee balance: " + feeBalance
+        );
+    }}
