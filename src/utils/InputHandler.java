@@ -28,6 +28,8 @@ import java.util.Scanner;
                 int min,
                 int max) {
             while (true) {
+                int value = getIntInput(prompt);
+
 
             }
         }
