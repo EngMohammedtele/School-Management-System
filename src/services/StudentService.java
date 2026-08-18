@@ -57,3 +57,4 @@ public List<Student> getAll() {
     return students;
     }
 @Override
+public Student searchById(String id) {
