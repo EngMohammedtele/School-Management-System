@@ -43,5 +43,5 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
         students.add(student);
     } @Override
     public boolean remove(String id) {
-
+        Student found = searchById(id);
     }
