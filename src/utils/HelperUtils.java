@@ -17,6 +17,10 @@ public class HelperUtils {
         return !isEmpty(s)
                 && s.trim().length() >= minLength;
     }
+    public static boolean isValidString(
+            String s,
+            int min,
+            int max) {
 
 
 
