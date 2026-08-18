@@ -35,4 +35,5 @@ public class HelperUtils {
     public static boolean isPositive(int n) {
         return n > 0;
     }
+    public static boolean isPositive(double n) {
 }
