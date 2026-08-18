@@ -14,5 +14,9 @@ import java.util.Scanner;
           IO.println(prompt + " ");
 
             while (!scanner.hasNextInt()) {
+               IO.println(
+                        "Please type a whole number: "
+                );
+            }
 }
 
