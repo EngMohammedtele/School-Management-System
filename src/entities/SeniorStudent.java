@@ -30,5 +30,8 @@ public void setMajor(String major) {
 public void setGpa(double gpa) {
     this.gpa = gpa;
 }
+@Override
+
+}
 
 }
