@@ -24,7 +24,8 @@ public class HeadTeacher extends  Person{
         return department;
     }
 
-
+    public int getTeachersManaged() {
+        return teachersManaged;
     }
     }
 
