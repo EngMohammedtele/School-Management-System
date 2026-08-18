@@ -48,5 +48,6 @@ public class HelperUtils {
             double n,
             double min,
             double max) {
+        return n >= min && n <= max;
     }
 }
