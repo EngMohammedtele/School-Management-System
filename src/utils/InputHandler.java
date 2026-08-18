@@ -21,6 +21,7 @@ import java.util.Scanner;
             }
             int value = scanner.nextInt();
             scanner.nextLine();
+            return value;
         }
 }
 
