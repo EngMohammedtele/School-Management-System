@@ -62,7 +62,10 @@ import java.util.Scanner;
                     scanner.nextLine()
                             .trim()
                             .toLowerCase();
-
+            return answer.equals("yes")
+                    || answer.equals("y");
+        }
+    }
         }
         }
 }
