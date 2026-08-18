@@ -35,3 +35,6 @@ public class Student extends Person {
     public List<String> getSubjects() {
         return subjects;
     }
+    public void setGradeLevel(String gradeLevel) {
+        this.gradeLevel = gradeLevel;
+    }
