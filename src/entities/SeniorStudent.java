@@ -20,6 +20,8 @@ public class SeniorStudent extends Person{
         return major;
 }
 
-
+public double getGpa() {
+    return gpa;
+}
 
 }
