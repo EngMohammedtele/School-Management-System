@@ -47,4 +47,8 @@ public class Teacher extends Person {
 
     public void setExperienceYears(int experienceYears) {
 
+
+
+        if (experienceYears < 0) {
+
     }
