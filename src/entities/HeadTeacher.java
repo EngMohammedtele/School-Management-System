@@ -20,6 +20,12 @@ public class HeadTeacher extends  Person{
         this.department = department;
 
     }
+    public String getDepartment() {
+        return department;
+    }
+
+
+    }
     }
 
     }
