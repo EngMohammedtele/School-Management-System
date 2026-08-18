@@ -51,4 +51,6 @@ public class HelperUtils {
         return n >= min && n <= max;
     }
     public static boolean isValidAge(int age) {
+        return age >= 0 && age <= 120;
+    }
 }
