@@ -10,6 +10,8 @@ public class HelperUtils {
     public static boolean isEmpty(List<?> list) {
         return list == null || list.isEmpty();
     }
+    public static boolean isValidString(String s) {
+
 
 
 
