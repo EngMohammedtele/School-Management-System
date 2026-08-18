@@ -44,4 +44,5 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
     } @Override
     public boolean remove(String id) {
         Student found = searchById(id);
+        if (found != null) {
     }
