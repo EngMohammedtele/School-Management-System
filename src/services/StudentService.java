@@ -16,5 +16,20 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
 
 
         String id = HelperUtils.generateId("STU");
+
+
+        Student student = new Student(
+                id,
+                firstName,
+                lastName,
+                "",
+                "",
+                phone,
+                "",
+                "",
+                "Grade 1",
+                "2026-01-01",
+                0
+        );
     }
 }
