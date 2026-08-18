@@ -23,4 +23,6 @@ public class HelperUtils {
             int max) {
         return !isEmpty(s
                 && s.trim().length() >= min
+                && s.trim().length() <= max;
+    }
 }
