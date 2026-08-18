@@ -13,6 +13,6 @@ import java.util.Scanner;
 
           IO.println(prompt + " ");
 
-
+            while (!scanner.hasNextInt()) {
 }
 
