@@ -60,4 +60,6 @@ public List<Student> getAll() {
 public Student searchById(String id) {
 
     if (student.getId().equals(id)) {
+        return student;
+    }
 }
