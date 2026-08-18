@@ -17,6 +17,7 @@ public class Student extends Person {
         this.gradeLevel = gradeLevel;
         this.enrollmentDate = enrollmentDate;
 
+        setFeeBalance(feeBalance);
 
 
 
