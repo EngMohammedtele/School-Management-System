@@ -1,4 +1,7 @@
 package interfaces;
 
-public class Searchable {
-}
+import java.util.List;
+
+
+public interface Searchable<T> {
+
