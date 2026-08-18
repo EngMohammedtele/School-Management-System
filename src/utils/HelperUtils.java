@@ -29,6 +29,6 @@ public class HelperUtils {
         return "ID-" + (counter++);
     }
     public static String generateId(String prefix) {
-
+        return prefix + "-" + (counter++);
     }
 }
