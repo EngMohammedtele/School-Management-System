@@ -17,6 +17,9 @@ import java.util.Scanner;
                IO.println(
                         "Please type a whole number: "
                 );
+                scanner.next();
             }
+
+        }
 }
 
