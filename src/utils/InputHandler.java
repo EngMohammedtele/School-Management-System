@@ -33,8 +33,15 @@ import java.util.Scanner;
                 if (HelperUtils.isValidNumber(value, min, max)) {
                     return value;
                 }
-
+                IO.println(
+                        "Please enter a number between "
+                                + min + " and " + max + "."
+                );
             }
+        }
+
+
+    }
             }
         }
 }
