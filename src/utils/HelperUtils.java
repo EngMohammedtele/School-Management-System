@@ -8,6 +8,12 @@ public class HelperUtils {
         return s == null || s.trim().isEmpty();
     }
 
+    // Overloaded isEmpty:
+    // Check if a List is empty
+    public static boolean isEmpty(List<?> list) {
+        return list == null || list.isEmpty();
+    }
+
 
 
 }
