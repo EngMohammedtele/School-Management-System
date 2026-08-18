@@ -21,7 +21,7 @@ public class HelperUtils {
             String s,
             int min,
             int max) {
-
+        return !isEmpty(s
 
 
 }
