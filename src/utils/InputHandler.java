@@ -54,6 +54,10 @@ import java.util.Scanner;
             return value;
         }
         public boolean getConfirmation(String prompt) {
+
+            IO.println(
+                    prompt + " (yes/no) "
+            );
             }
         }
 }
