@@ -64,5 +64,9 @@ public class Teacher extends Person {
         }
         public void addClass(String className) {
             classesTaught.add(className);
+
+        }
+        public void updateSalary(double salary) {
+
         }
     }
