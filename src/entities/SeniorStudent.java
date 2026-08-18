@@ -17,4 +17,9 @@ public class SeniorStudent extends Person{
         this.major = major;
         this.gpa = gpa;
     }
+        return major;
+}
+
+
+
 }
