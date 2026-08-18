@@ -18,7 +18,7 @@ public class Student extends Person {
         this.enrollmentDate = enrollmentDate;
 
         setFeeBalance(feeBalance);
-
+        this.subjects = new ArrayList<>();
 
 
 
