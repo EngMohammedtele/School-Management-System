@@ -13,5 +13,8 @@ public class SeniorStudent extends Person{
         super(id, firstName, lastName, dateOfBirth,
                 gender, phoneNumber, email, address,
                 gradeLevel, enrollmentDate, feeBalance);
+
+        this.major = major;
+
     }
 }
