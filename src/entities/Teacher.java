@@ -16,4 +16,7 @@ public class Teacher extends Person {
                    String phoneNumber, String email, String address,
                    String subject, int experienceYears,
                    double salary) {
+        super(id, firstName, lastName, dateOfBirth,
+                gender, phoneNumber, email, address)
+    }
 }
