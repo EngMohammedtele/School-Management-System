@@ -47,6 +47,9 @@ import java.util.Scanner;
               IO.println(
                         "Please type a number: "
                 );
+                scanner.next();
+            }
+
         }
             }
         }
