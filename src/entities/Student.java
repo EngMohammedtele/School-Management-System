@@ -23,3 +23,9 @@ public class Student extends Person {
 }
     public String getGradeLevel() {
         return gradeLevel;
+
+    }
+
+    public String getEnrollmentDate() {
+        return enrollmentDate;
+    }
