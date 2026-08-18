@@ -58,7 +58,12 @@ import java.util.Scanner;
             IO.println(
                     prompt + " (yes/no) "
             );
-            }
+            String answer =
+                    scanner.nextLine()
+                            .trim()
+                            .toLowerCase();
+
+        }
         }
 }
 
