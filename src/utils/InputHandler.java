@@ -23,5 +23,9 @@ import java.util.Scanner;
             scanner.nextLine();
             return value;
         }
+        public int getIntInput(
+                String prompt,
+                int min,
+                int max) {
 }
 
