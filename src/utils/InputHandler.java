@@ -42,7 +42,7 @@ import java.util.Scanner;
         public double getDoubleInput(String prompt) {
           IO.println(prompt + " ");
 
-
+            while (!scanner.hasNextDouble()) {
         }
             }
         }
