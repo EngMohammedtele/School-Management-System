@@ -39,9 +39,11 @@ import java.util.Scanner;
                 );
             }
         }
+        public double getDoubleInput(String prompt) {
 
 
-    }
+
+        }
             }
         }
 }
