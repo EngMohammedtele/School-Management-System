@@ -8,6 +8,8 @@ import java.util.Scanner;
         public String getStringInput(String prompt) {
             IO.println(prompt + " ");
             return scanner.nextLine();
+        }
+        public int getIntInput(String prompt) {
 
 
 
