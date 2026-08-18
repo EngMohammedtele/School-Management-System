@@ -20,11 +20,6 @@ public class Student extends Person {
         setFeeBalance(feeBalance);
         this.subjects = new ArrayList<>();
 
-
-
-
-
-
-
-
 }
+    public String getGradeLevel() {
+        return gradeLevel;
