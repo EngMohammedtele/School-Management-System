@@ -31,4 +31,5 @@ public class HelperUtils {
     public static String generateId(String prefix) {
         return prefix + "-" + (counter++);
     }
+    public static boolean isPositive(int n) {
 }
