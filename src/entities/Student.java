@@ -29,3 +29,6 @@ public class Student extends Person {
     public String getEnrollmentDate() {
         return enrollmentDate;
     }
+    public double getFeeBalance() {
+        return feeBalance;
+    }
