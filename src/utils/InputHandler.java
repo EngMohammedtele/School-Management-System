@@ -31,6 +31,10 @@ import java.util.Scanner;
                 int value = getIntInput(prompt);
 
                 if (HelperUtils.isValidNumber(value, min, max)) {
+                    return value;
+                }
+
+            }
             }
         }
 }
