@@ -56,3 +56,6 @@ public class Teacher extends Person {
                         "Experience cannot be below 0. Keeping it at 0."
                 );
 
+                this.experienceYears = 0;
+                return;
+            }
