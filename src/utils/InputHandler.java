@@ -49,6 +49,7 @@ import java.util.Scanner;
                 );
                 scanner.next();
             }
+            double value = scanner.nextDouble();
 
         }
             }
