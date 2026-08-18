@@ -11,7 +11,7 @@ import java.util.Scanner;
         }
         public int getIntInput(String prompt) {
 
-
+          IO.println(prompt + " ");
 
 
 }
