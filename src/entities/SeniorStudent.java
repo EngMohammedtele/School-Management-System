@@ -27,6 +27,8 @@ public void setMajor(String major) {
     this.major = major;
 }
 
-
+public void setGpa(double gpa) {
+    this.gpa = gpa;
+}
 
 }
