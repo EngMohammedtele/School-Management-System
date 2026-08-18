@@ -54,3 +54,5 @@ public class Teacher extends Person {
 
                 IO.println(
                         "Experience cannot be below 0. Keeping it at 0."
+                );
+
