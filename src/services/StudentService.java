@@ -39,5 +39,7 @@ public class StudentService implements Manageable<Student>, Searchable<Student> 
         return student;
     }
     @Override
+    public void add(Student student) {
+
     }
 }
