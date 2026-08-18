@@ -15,6 +15,6 @@ public class SeniorStudent extends Person{
                 gradeLevel, enrollmentDate, feeBalance);
 
         this.major = major;
-
+        this.gpa = gpa;
     }
 }
