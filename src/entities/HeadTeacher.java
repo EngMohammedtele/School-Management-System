@@ -35,8 +35,9 @@ public class HeadTeacher extends  Person{
 
 }
     @Override
+    public void displayInfo() {
 
-        );
+
     }
 }
 
