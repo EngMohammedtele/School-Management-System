@@ -19,5 +19,7 @@ public class Teacher extends Person {
         super(id, firstName, lastName, dateOfBirth,
                 gender, phoneNumber, email, address)
         this.salary = salary;
+
+        this.classesTaught = new ArrayList<>();
     }
 }
